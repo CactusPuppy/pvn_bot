@@ -1,6 +1,0 @@
-name: PvN_Manager
-version: 0.1-SNAPSHOT
-main: usa.cactuspuppy.pvn_bot.Main
-description: Manages Pirates vs. Ninjas event, including Discord integration
-author: CactusPuppy
-website: github.com/CactusPuppy
