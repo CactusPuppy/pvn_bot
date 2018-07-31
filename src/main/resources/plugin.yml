@@ -11,4 +11,4 @@ permissions:
 
 commands:
   pvn:
-    description: Wrapper command to
+    description: Wrapper command to manage 
