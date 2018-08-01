@@ -1,1 +1,5 @@
 bot_token: token-goes-here
+# The method for
+db_method: sqlite
+db:
+  path: PVN.db

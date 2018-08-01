@@ -11,4 +11,9 @@ permissions:
 
 commands:
   pvn:
-    description: Wrapper command to
+    description: Wrapper command to access the bot.
+    permission: pvn.admin
+  group:
+    description: Groups player with the specified player if they are close enough.
+  t:
+    description: Sends message to teammates

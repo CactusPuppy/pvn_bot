@@ -7,15 +7,18 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import javax.security.auth.login.LoginException;
 import java.io.File;
+import java.sql.Statement;
 
 public class Main extends JavaPlugin {
     private static Main instance;
     private JDA jda;
+    private Statement sql;
 
     @Override
     public void onEnable() {
         createConfig();
         initDiscord();
+        //init database
     }
 
     @Override
@@ -50,6 +53,13 @@ public class Main extends JavaPlugin {
             e.printStackTrace();
         }
     }
+
+    /*
+    private void registerCommands() {
+        getCommand("pvn").setExecutor();
+        getCommand("group").setExecutor();
+        getCommand("t").setExecutor();
+    }*/
 
     public static Main getInstance() {
         return instance;
