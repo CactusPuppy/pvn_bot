@@ -4,6 +4,7 @@ import net.dv8tion.jda.core.AccountType;
 import net.dv8tion.jda.core.JDA;
 import net.dv8tion.jda.core.JDABuilder;
 import org.bukkit.plugin.java.JavaPlugin;
+import usa.cactuspuppy.pvn_bot.discord.JDAHandler;
 
 import javax.security.auth.login.LoginException;
 import java.io.File;

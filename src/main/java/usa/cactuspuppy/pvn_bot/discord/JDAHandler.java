@@ -1,4 +1,4 @@
-package usa.cactuspuppy.pvn_bot;
+package usa.cactuspuppy.pvn_bot.discord;
 
 import net.dv8tion.jda.core.EmbedBuilder;
 import net.dv8tion.jda.core.entities.Message;
@@ -23,7 +23,7 @@ public class JDAHandler extends ListenerAdapter {
         } else if (content.startsWith("!echo ")) {
             EmbedBuilder builder = new EmbedBuilder();
             builder.setTitle("Echoing " + event.getAuthor().getName() + "'s Message:");
-            builder.setColor(new Color(0xF40C0C));
+            builder.setColor(new Color(0x20D0F4));
             content = content.substring("!echo ".length());
             builder.addField("Message:", content, false);
             channel.sendMessage(builder.build()).queue();
